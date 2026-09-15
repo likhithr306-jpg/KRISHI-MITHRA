@@ -4,7 +4,7 @@ import "./App.css";
 
 const API_BASE_URL = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1"
   ? "http://localhost:5000/api"
-  : "https://your-backend-name.onrender.com/api"; // We will update this later
+  : "https://krishi-mithra.onrender.com/api";
 
 const locationData = {
   "Udupi": ["Udupi", "Brahmavara", "Kapu", "Kundapura", "Byndoor", "Karkala", "Hebri"],
